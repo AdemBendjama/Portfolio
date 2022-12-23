@@ -93,6 +93,22 @@ a:active {
     background-color: #FBE850;
 }
 
+/*****! Introduction *****/
+.introduction {
+    padding: 5% 40% 5% 0;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.introduction .title {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 52px;
+}
+
+.introduction .description {
+    line-height: 28px;
+}
 
 
 /***************! Section-2 ***************/
