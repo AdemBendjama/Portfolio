@@ -1,5 +1,7 @@
 /***************! Importing FONTS ***************/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&display=swap');
 
 /***************! Apply Border-Box Property ***************/
 * {
@@ -13,50 +15,107 @@
 }
 
 /***************! HTML ***************/
-body{
-    margin:0;
+body {
+    margin: 0;
     padding: 0;
     font-size: 18px;
-    font-family: 'Roboto',sans-serif;
+    color: white;
+    font-family: 'Chivo Mono', monospace;
 }
 
-a{
+a {
     text-decoration: none;
-    color: rgb(147, 147, 147);
+    color: rgb(200, 200, 200);
 }
-a:hover{
-    color: rgb(241, 241, 241);
+
+a:hover {
+    color: rgb(255, 255, 255);
 }
-a:active{
-    color: rgb(191, 191, 191);
+
+a:active {
+    color: rgb(171, 171, 171);
 }
+
+.navbar .name a {
+    color: rgb(255, 255, 255);
+}
+
+.navbar .name a:hover {
+    color: rgb(200, 200, 200);
+}
+
+.navbar .name a:focus {
+    color: rgb(170, 170, 170);
+}
+
+
 
 
 
 
 /***************! Section-1 ***************/
-.section-1{
+.section-1 {
     height: 1000px;
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
     background-color: black;
 }
-.section-2{
+
+/*****! Navbar *****/
+
+.navbar {
+    padding: 5% 0 5% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .name {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 22px;
+}
+
+.navbar .navbar-sections {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar .navbar-call-to-action {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 22px;
+}
+
+.navbar .navbar-call-to-action a {
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: black;
+    background-color: #FBE850;
+}
+
+
+
+/***************! Section-2 ***************/
+.section-2 {
     height: 450px;
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
     background-color: grey;
 }
-.section-3{
+
+
+/***************! Section-3 ***************/
+.section-3 {
     height: 250px;
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
     background-color: black;
 }
-.section-4{
+
+/***************! Section-4 ***************/
+.section-4 {
     height: 80px;
     width: 100%;
     padding-left: 10%;
