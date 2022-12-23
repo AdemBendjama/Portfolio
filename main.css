@@ -1,0 +1,65 @@
+/***************! Importing FONTS ***************/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/***************! Apply Border-Box Property ***************/
+* {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/***************! HTML ***************/
+body{
+    margin:0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Roboto',sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(147, 147, 147);
+}
+a:hover{
+    color: rgb(241, 241, 241);
+}
+a:active{
+    color: rgb(191, 191, 191);
+}
+
+
+
+
+/***************! Section-1 ***************/
+.section-1{
+    height: 1000px;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: black;
+}
+.section-2{
+    height: 450px;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: grey;
+}
+.section-3{
+    height: 250px;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: black;
+}
+.section-4{
+    height: 80px;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: grey;
+}
