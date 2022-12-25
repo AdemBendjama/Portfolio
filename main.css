@@ -49,6 +49,10 @@ a:active {
     color: rgb(200, 200, 200);
 }
 
+.name a{
+    cursor: default;
+}
+
 /***************! Section-1 ***************/
 .section-1 {
     height: 600px;
@@ -70,6 +74,7 @@ a:active {
 .navbar .name {
     font-family: 'Chakra Petch', sans-serif;
     font-size: 22px;
+    
 }
 
 .navbar .navbar-sections {
@@ -106,6 +111,7 @@ a:active {
     line-height: 28px;
 }
 
+
 .intro-body {
     display: flex;
     align-items: center;
@@ -125,15 +131,15 @@ a:active {
 
 /***************! Section-2 ***************/
 .section-2 {
-    height: 800px;
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 10%;
     background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
+    gap: 70px;
 }
 
 .section-2 .title {
@@ -149,23 +155,34 @@ a:active {
     gap: 20px;
 }
 
+
 .section-2 .project-thumbnail img {
-    height: 400px;
     width: 800px;
-    border-radius: 20px;
-    border-color: white;
-    border-style: solid;
-    border-width: 2px;
+    border-radius: 32px;
+    border: solid white 2px;
 }
+
 
 .section-2 .project-description {
     font-family: 'Chakra Petch', sans-serif;
     font-size: 32px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
-.section-2 .project .left {}
 
-.section-2 .project .right {}
+.section-2 .project-description a {
+    color: white;
+    height: 45px;
+}
+
+.section-2 .project-description a:hover{
+    color: rgb(200, 200, 200);
+}
+
+
+
 
 
 
@@ -190,7 +207,7 @@ a:active {
     font-size: 42px;
 }
 
-.section-3 .call-to-action  {
+.section-3 .call-to-action {
     font-family: 'Chakra Petch', sans-serif;
     font-size: 22px;
     margin-top: 25px;
@@ -216,7 +233,7 @@ a:active {
     justify-content: space-between;
 }
 
-.section-4 .footer-name {
+.section-4 .name {
     font-family: 'Chakra Petch', sans-serif;
     font-size: 22px;
 }
