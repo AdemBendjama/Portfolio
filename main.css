@@ -51,11 +51,11 @@ a:active {
 
 /***************! Section-1 ***************/
 .section-1 {
-    height: 1000px;
+    height: 600px;
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
-    background-color: #0A0A0B;
+    background-color: black;
 }
 
 /*****! Navbar *****/
@@ -85,13 +85,13 @@ a:active {
 .navbar .navbar-call-to-action a {
     padding: 20px 30px;
     border-radius: 10px;
-    color: #0A0A0B;
+    color: black;
     background-color: #FBE850;
 }
 
 /*****! Introduction *****/
 .introduction {
-    padding: 5% 40% 5% 0;
+    padding: 5% 5% 5% 0;
     display: flex;
     flex-direction: column;
     gap: 18px;
@@ -106,15 +106,68 @@ a:active {
     line-height: 28px;
 }
 
+.intro-body {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
 
-/***************! Section-2 ***************/
-.section-2 {
-    height: 450px;
+/***************! Background Image ***************/
+.background-img {
+    height: 486px;
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
-    background-color: #2E3038;
+    background-image: url(Assets/cacao_and_coffee_shop.gif);
+
 }
+
+
+/***************! Section-2 ***************/
+.section-2 {
+    height: 800px;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.section-2 .title {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 42px;
+    padding-top: 4%;
+}
+
+/*****! projects *****/
+.section-2 .project {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-2 .project-thumbnail img {
+    height: 400px;
+    width: 800px;
+    border-radius: 20px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.section-2 .project-description {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 32px;
+}
+
+.section-2 .project .left {}
+
+.section-2 .project .right {}
+
+
 
 
 /***************! Section-3 ***************/
@@ -123,7 +176,7 @@ a:active {
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
-    background-color: #0A0A0B;
+    background-color: #c3c3c3;
 }
 
 /***************! Section-4 ***************/
