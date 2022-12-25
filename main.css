@@ -172,12 +172,37 @@ a:active {
 
 /***************! Section-3 ***************/
 .section-3 {
-    height: 250px;
+    height: 335px;
     width: 100%;
+    padding-top: 4%;
     padding-left: 10%;
     padding-right: 10%;
     background-color: #c3c3c3;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: black;
+
 }
+
+.section-3 .question {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 42px;
+}
+
+.section-3 .call-to-action  {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+.section-3 .call-to-action a {
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: black;
+    background-color: #FBE850;
+}
+
 
 /***************! Section-4 ***************/
 .section-4 {
