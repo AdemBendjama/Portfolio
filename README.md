@@ -1,2 +1,1 @@
-# Simple Portfolio
-[Site](https://adembendjama.github.io/ProtoTypePortfolio/)
+# [Simple Portfolio](https://adembendjama.github.io/ProtoTypePortfolio/)
