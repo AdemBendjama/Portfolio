@@ -1,5 +1,4 @@
 /***************! Importing FONTS ***************/
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&display=swap');
 
@@ -23,12 +22,10 @@ body {
     font-family: 'Chivo Mono', monospace;
 }
 
-
 a {
     text-decoration: none;
     color: rgb(200, 200, 200);
 }
-
 
 
 a:hover {
@@ -71,7 +68,7 @@ a:active {
 }
 
 .navbar .profile-pic{
-    margin-right: -90px;
+    margin-right: -100px;
 }
 
 .navbar .name {
@@ -99,7 +96,7 @@ a:active {
 
 /*****! Introduction *****/
 .introduction {
-    padding: 7% 5% 20% 0;
+    padding: 9% 5% 21% 0;
     display: flex;
     flex-direction: column;
     gap: 18px;
@@ -201,6 +198,8 @@ a:active {
     color: black;
 
 }
+
+/*****! Call To Action *****/
 
 .section-3 .question {
     font-family: 'Chakra Petch', sans-serif;
